@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Livraria</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+    <body>
+        <h1>Livraria</h1>
+        <form>
+            <!--<label for="titulo">Título</label>-->
+            <select>
+                <option id="titulo">Titulo</option>
+                <option id="autor">Autor</option>
+                <option id="maiorque">Preço maior que</option>
+                <option id="menorque">Preço menor que</option>
+            </select>
+            <input type="text" id="busca">
+            <input type="button" id="botao" value="Filtrar"><br>
+            <label>Categorias</label>
+            <div id="genero">
+                <input type="radio" name="categoria" 
+                       onclick="{testRadiobuton()}" id="all" value="all" checked=""/>all
+                <input type="radio" name="categoria" 
+                       onclick="{testRadiobuton()}" id="cooking" value="cooking" />cooking
+                <input type="radio" name="categoria" 
+                       onclick="{testRadiobuton()}" id="children" value="children" />children
+                <input type="radio" name="categoria"
+                       onclick="{testRadiobuton()}" id="web" value="web" />web
+            </div>
+        </form>
+        <article id="resultado"></article>
+        <script src="codigo.js"></script>
+    </body>
+</html>

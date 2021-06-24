@@ -1,0 +1,77 @@
+<receitas>
+	<receita categoria="lanche">
+		<nome>Torta de Frango</nome>
+		<ingredientes>
+			<ingrediente>Peito de frango</ingrediente>
+			<ingrediente>Tempero</ingrediente>
+			<ingrediente>Tomate</ingrediente>
+			<ingrediente>Ervilha</ingrediente>
+			<ingrediente>Leite</ingrediente>
+			<ingrediente>Farinha de Trigo</ingrediente>
+			<ingrediente>Ovos</ingrediente>
+			<ingrediente>Fermento</ingrediente>
+		</ingredientes>
+		<modoPreparo>
+			<passo>Cozinhe o peito de frango com o tempero</passo>
+			<passo>Acrescente a ervilha</passo>
+			<passo>Deixe cozinhar ate secar</passo>
+			<passo>Bata o leite, ovos e farinha no liquidificador</passo>
+			<passo>Coloque a massa em uma forma untada</passo>
+			<passo>Coloque o frango na forma</passo>
+			<passo>Leve ao forno até dourar</passo>
+		</modoPreparo>
+		<ilustracao>
+			<foto>peitoDeFrango.png</foto>
+			<foto>tortaDeFrango.png</foto>
+		</ilustracao>
+	</receita>
+        
+        
+        
+	<receita categoria="sobremesa">
+		<nome>Pudim de Leite Condensado</nome>
+		<ingredientes>
+			<ingrediente>Leite condensado</ingrediente>
+			<ingrediente>Leite</ingrediente>
+			<ingrediente>Ovos</ingrediente>
+			<ingrediente>Açucar</ingrediente>
+			<ingrediente>Água</ingrediente>
+		</ingredientes>
+		<modoPreparo>
+			<passo>Bata os ovos no liquidificador</passo>
+			<passo>Acrescente o leite condensado e bata novamente</passo>
+			<passo>Derreta o açucar na panela ate ficar moreno</passo>
+			<passo>Acrescente água e deixe engrossar</passo>
+			<passo>Coloque tudo em uma forma e leve ao forno em banho maria</passo>
+		</modoPreparo>
+		<ilustracao>
+			<foto>pudim.png</foto>
+		</ilustracao>
+	</receita>
+	<receita categoria="lanche">
+		<nome>Bolo de Milho sem Farinha</nome>
+		<ingredientes>
+			<ingrediente>Milho</ingrediente>
+			<ingrediente>Ovos</ingrediente>
+			<ingrediente>Leite de coco</ingrediente>
+			<ingrediente>Coco ralado</ingrediente>
+			<ingrediente>Creme de leite</ingrediente>
+		</ingredientes>
+		<modoPreparo>
+			<passo>Bata tudo no liquidificador até ficar homogêneo</passo>
+			<passo>Coloque a massa em uma forma untada e leve ao forno ate dourar</passo>
+			<passo>Sirva com leite</passo>
+		</modoPreparo>
+		<ilustracao>
+			<foto>milho.png</foto>
+			<foto>boloDeMilho.png</foto>
+			<foto>fatiaDeBolo.png</foto>
+		</ilustracao>
+	</receita>
+<!--
+	<receita>
+		acrecente aqui mais algumas receitas.
+	</receita>
+-->
+
+</receitas>

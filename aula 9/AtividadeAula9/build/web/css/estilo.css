@@ -1,0 +1,57 @@
+/* 
+    Created on : 22/04/2021, 17:22:21
+    Author     : wellikson
+*/
+*{
+    font-family: monospace;
+    font-size: 17px;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 95%;
+}
+
+#container {
+    max-width: 100%;
+}
+nav{  
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    padding: 5px 5px;
+    margin: 0px;
+    display: block;
+    border-right: 1px solid black;
+    cursor: default;
+}
+header {
+  
+    text-align: center;
+    background: cyan;
+
+}
+a:hover{
+    background-color: mediumspringgreen;
+}
+#barra {
+    background: cyan;
+    height: auto;
+}
+h1{
+    font-size: 18px;
+    text-align: center;
+}
+main  {
+    background: lightblue;
+    height: auto;
+    margin-bottom: 1em;
+}
+main img{
+    margin-left: 15%;
+    width: 70%;
+    height: 280px;
+}
+footer {
+    background: cyan;
+    height: 5em;
+}

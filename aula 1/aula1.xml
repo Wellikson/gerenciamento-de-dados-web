@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pessoas>
+    <pessoa>
+        <nome>José Silva</nome>
+        <email>josesilva@gmail.com</email>
+        <nascimento>
+            <dia>10</dia>
+            <mes>12</mes>
+            <ano>2000</ano>
+        </nascimento>
+        <telefones>
+            <telefone>981234321</telefone>
+            <telefone>32233434</telefone>
+        </telefones>
+    </pessoa>
+    <pessoa>
+        <nome>Mônica Aparecida</nome>
+        <email>moaparecida@hotmail.com</email>
+        <nascimento>
+            <dia>03</dia>
+            <mes>04</mes>
+            <ano>1998</ano>
+        </nascimento>
+        <telefones>
+            <telefone>32255123</telefone>
+            <telefone>99992222</telefone>
+            <telefone>98349451</telefone>
+        </telefones>
+    </pessoa>
+    <pessoa>
+        <nome>Joaquim Gomes</nome>
+        <email>jgomes@yahoo.com.br</email>
+        <nascimento>
+            <dia>25</dia>
+            <mes>08</mes>
+            <ano>1980</ano>
+        </nascimento>
+        <telefones>
+            <telefone>33232242</telefone>
+            <telefone>984233242</telefone>
+        </telefones>
+    </pessoa>
+    <pessoa>
+        <nome>Ana Soares</nome>
+        <email>anasoares@outlook.com</email>
+        <nascimento>
+            <dia>29</dia>
+            <mes>02</mes>
+            <ano>1990</ano>
+        </nascimento>
+        <telefones>
+            <telefone>32342345</telefone>
+            <telefone>998419896</telefone>
+        </telefones>
+    </pessoa>
+    <pessoa>
+        <nome>Paulo Gustavo</nome>
+        <email>paulogustavo@gmail.com</email>
+        <nascimento>
+            <dia>21</dia>
+            <mes>09</mes>
+            <ano>2002</ano>
+        </nascimento>
+        <telefones>
+            <telefone>32766578</telefone>
+            <telefone>978981390</telefone>
+        </telefones>
+    </pessoa>
+    <pessoa>
+        <nome>Carlos Alfredo</nome>
+        <email>Calfredo@uol.com</email>
+        <nascimento>
+            <dia>07</dia>
+            <mes>03</mes>
+            <ano>1987</ano>
+        </nascimento>
+        <telefones>
+            <telefone>31347900</telefone>
+            <telefone>997019718</telefone>
+        </telefones>
+    </pessoa>
+    <pessoa>
+        <nome>Maria Sônia</nome>
+        <email>marsonia@outlook.com</email>
+        <nascimento>
+            <dia>15</dia>
+            <mes>10</mes>
+            <ano>1972</ano>
+        </nascimento>
+        <telefones>
+            <telefone>35119712</telefone>
+            <telefone>981239866</telefone>
+        </telefones>
+    </pessoa>
+</pessoas>

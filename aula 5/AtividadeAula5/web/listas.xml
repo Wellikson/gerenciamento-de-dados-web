@@ -1,0 +1,40 @@
+<listas>
+    <lista id="1">
+        <titulo>Compras Casa</titulo>
+        <itens>
+            <item feito="nao" prioridade="nao">Sabão em pó</item>
+            <item feito="sim">Leite</item>
+            <item prioridade="sim">Café</item>
+            <item feito="nao" prioridade="nao">Bolacha</item>
+        </itens>
+    </lista>
+    <lista id="4">
+        <titulo>Compras Escritório</titulo>
+        <itens>
+            <item feito="sim" prioridade="nao">Grampo</item>
+            <item feito="sim">Marca texto</item>
+            <item feito="sim" prioridade="sim">Papel</item>
+            <item>Bobina para impressora</item>
+            <item prioridade="sim">Caneta azul</item>
+            <item>Lápis</item>
+        </itens>
+    </lista>
+    <lista id="10">
+        <titulo>Atividades domesticas</titulo>
+        <itens>
+            <item feito="nao" prioridade="nao">Trocar lâmpada do jardim</item>
+            <item feito="sim" prioridade="sim">Trocar telha quebrada</item>
+            <item feito="nao" prioridade="nao">Lavar roupa</item>
+            <item feito="nao" prioridade="sim">Recolher roupa do varal</item>
+        </itens>
+    </lista>
+    <lista id="11">
+        <titulo>Atividades Escritório</titulo>
+        <itens>
+            <item feito="nao" prioridade="sim">Enviar cartas</item>
+            <item feito="nao" prioridade="sim">Enviar relatório</item>
+            <item feito="nao" prioridade="sim">Fazer a folha de pagamento</item>
+            <item feito="sim" prioridade="nao">Pagar fornecedores</item>
+        </itens>
+    </lista>
+</listas>

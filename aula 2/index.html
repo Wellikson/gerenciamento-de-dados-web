@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Introdução ao DOM</title>
+</head>
+
+<body>
+    <p id="demo" ></p>
+    <script src="codigo.js"></script>
+    <script>
+        var parser, xmlDoc;
+        parser = new DOMParser();
+        xmlDoc = parser.parseFromString(text, "text/xml");
+        /*document.getElementById("demo").innerHTML =
+            xmlDoc.getElementsByTagName("year")[0].childNodes[0].nodeValue;*/
+
+        /*let autores=xmlDoc.getElementsByTagName("author");
+        let tam=autores.length;
+        for(let i=0;i<tam;i++)
+        {
+            console.log(autores[i].nodeName);
+        }*/
+        /*let filhos=xmlDoc.documentElement.childNodes;
+        let tam=filhos.length;
+        alert(tam);
+        for(let i=0;i<tam;i++)
+        {
+            if(filhos[i].nodeType==1)
+                console.log(filhos[i].childNodes[0].nodeName);
+        }*/
+        /*let filho=xmlDoc.documentElement.firstChild;
+        while(filho!=null)
+        {
+            if(filho.nodeType==1)
+                console.log(filho.nodeName);
+            filho=filho.nextSibling;
+        }*/
+        // console.log(xmlDoc.documentElement.getAttribute("classe"));
+        // console.log(xmlDoc.documentElement.getAttributeNode("classe"));
+        var txt = "";
+        let x = xmlDoc.documentElement.childNodes;
+        for (let i = 0; i < x.length; i++) {
+           let n = x[i].childNodes;
+            if(x[i].nodeType==1)
+                for(let y = 0 ;y < n.length ;y++)
+                    txt += n[y].nodeName + ": " + n[y].childNodes[0].nodeValue + "<br>";
+            }
+        document.getElementById("demo").innerHTML = txt;
+    </script>
+</body>
+
+</html>
